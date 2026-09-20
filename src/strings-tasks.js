@@ -542,6 +542,7 @@ function getCardId(value) {
     'Q♠',
     'K♠',
   ];
+  if (!deck.includes(value)) return -1;
   return deck.indexOf(value);
 }
 
